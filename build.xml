@@ -1,4 +1,4 @@
-<!-- Originally built on BuildCraft build.xml -->
+<!-- Originally built on TinkersConstruct build.xml -->
 <project name="BlockPhysics" default="main">
     <property environment="env"/>
 
@@ -99,7 +99,7 @@
         </copy>
     </target>
 
-    <target name="compile" depends="initialize-version,install-deps,setup,copy-src">
+    <target name="compile" depends="initialize-version,setup,copy-src">
         <delete dir="${classes.dir}"/>
         <mkdir dir="${classes.dir}"/>
 
